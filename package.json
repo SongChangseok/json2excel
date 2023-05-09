@@ -2,10 +2,14 @@
   "name": "json2excel",
   "version": "1.0.0",
   "description": "json To excel 테스트 소스",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
 }
